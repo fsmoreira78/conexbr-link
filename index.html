@@ -70,36 +70,37 @@
 
         <div id="contato" class="container mt-5 mb-5">
             <div class="row">
-                <div class="col">
-                    <p class="fs-3">Contato</p>
-                </div>
-                <div class="col">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nomeContato" class="form-label">Nome</label>
-                            <input type="text" class="form-control"
-                                id="nomeContato">
-                        </div>
-                        <div class="mb-3">
-                            <label for="nomeEmpresa" class="form-label">Empresa</label>
-                            <input type="text" class="form-control"
-                                id="nomeEmpresa">
-                        </div>                        
-                        <div class="mb-3">
-                            <label for="enderecoEmail" class="form-label">E-mail</label>
-                            <input type="email" class="form-control"
-                                id="enderecoEmail"
-                                aria-describedby="enderecoEmailHelp">
-                            <div id="enderecoEmailHelp" class="form-text">Nós nunca compartilhamos endereços de e-mail com ninguém.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensagem" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="mensagem" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
+                <p class="fs-4">Fale Conosco</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="nomeContato" class="form-label">Nome*</label>
+                        <input type="text" class="form-control"
+                            id="nomeContato" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nomeEmpresa" class="form-label">Empresa*</label>
+                        <input type="text" class="form-control"
+                            id="nomeEmpresa" required>
+                    </div>                        
+                    <div class="mb-3">
+                        <label for="enderecoEmail" class="form-label">E-mail*</label>
+                        <input type="email" class="form-control"
+                            id="enderecoEmail"
+                            aria-describedby="enderecoEmailHelp" required>
+                        <div id="enderecoEmailHelp" class="form-text">Nós nunca compartilhamos endereços de e-mail com ninguém.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4"></textarea>
+                    </div>
+                    <div class="form-text mb-3">*Campos obrigatórios</div>
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                </form>
             </div>
+        </div>
+
+        <div class="container-fluid bg-light" style="height:30px;"> 
+            <span style="font-size: 0.7rem !important;"> <img src="assets/img/logo-pb.png" height="20px" width="auto"> Copyright 2022 - Conex Tecnologia da Informação Ltda</span>            
         </div>
 
         <script src="assets/js/bootstrap.min.js"></script>
