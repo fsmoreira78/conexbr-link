@@ -27,13 +27,13 @@
 <html lang="pt-br">
     <head>
         <title>Enviando...</title>
-        <!--<meta http-equiv="REFRESH" content="1;url=/contato.html"></HEAD>-->
+        <meta http-equiv="REFRESH" content="1;url=/contato.html">
     </head>
     <body>
         <?php
-            echo "<div> POST BODY <br>";
-            var_dump($_POST);
-            echo "</div>";
+            //echo "<div> POST BODY <br>";
+            //var_dump($_POST);
+            //echo "</div>";
         ?>        
     </body>
 </html>
