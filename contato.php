@@ -9,10 +9,10 @@
 
     $subject = "Contato pelo site: " . $_POST["nomeContato"];
     $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .
-                "Empresa..: " . $_POST["nomeEmpresa"] . "\r\n" .
-                "Email....: " . $_POST["enderecoEmail"] . "\r\n" .
-                "Fone.....: " . $_POST["telefone"] . "\r\n" .
-                "Mensagem.: " . $_POST["mensagem"];
+               "Empresa..: " . $_POST["nomeEmpresa"] . "\r\n" .
+               "Email....: " . $_POST["enderecoEmail"] . "\r\n" .
+               "Fone.....: " . $_POST["telefone"] . "\r\n" .
+               "Mensagem.: " . $_POST["mensagem"];
     
     $headers = "De:". $from;
 

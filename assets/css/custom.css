@@ -2,8 +2,9 @@
 
 body {
     font-family: 'Barlow', sans-serif !important;
+    background-color: #FAFAFA;
 }
 
 .texto-padrao {
-    color: #5A5A5A;
+    color: #5A5A5A !important;
 }
