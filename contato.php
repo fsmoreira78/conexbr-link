@@ -5,13 +5,14 @@
   $from = "suporte@conexbr.link";
   //$to = "estiprojetos@estiprojetos.com.br";
   $to = "fabricio@conexbr.link";
-  $phone = $_POST["p_fone"];
+  $phone = $_POST["telefone"];
 
-  $subject = "Contato pelo site: " . $_POST["p_nome"];
-  $message = "Nome.....: " . $_POST["p_nome"] . "\r\n" .
-             "Email....: " . $_POST["p_email"] . "\r\n" .
-             "Fone.....: " . $_POST["p_fone"] . "\r\n" .
-             "Mensagem.: " . $_POST["p_mensagem"];
+  $subject = "Contato pelo site: " . $_POST["nomeContato"];
+  $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .
+             "Empresa..: " . $_POST["nomeEmpresa"] . "\r\n" .
+             "Email....: " . $_POST["enderecoEmail"] . "\r\n" .
+             "Fone.....: " . $_POST["telefone"] . "\r\n" .
+             "Mensagem.: " . $_POST["mensagem"];
   
   $headers = "De:". $from;
 
