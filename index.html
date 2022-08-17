@@ -94,7 +94,9 @@
                     <div class="mb-3">
                         <label for="telefone" class="form-label">Telefone*</label>
                         <input type="number" class="form-control"
-                            id="telefone" name="telefone" required>
+                            id="telefone" name="telefone" 
+                            aria-describedby="telefoneHelp"required>
+                        <div id="telefoneHelp" class="form-text">Informe somente os números.</div>
                     </div>                    
                     <div class="mb-3">
                         <label for="mensagem" class="form-label">Mensagem</label>
@@ -115,7 +117,7 @@
         </div>
 
         <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/custom.js"></script>
     </body>
 </html>
