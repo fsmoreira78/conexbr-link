@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Barlow';
-    src: url('assets/fonts/Barlow-Medium.ttf');
+    src: url('/assets/fonts/Barlow-Medium.ttf');
   }
 
 body {
