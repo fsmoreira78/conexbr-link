@@ -31,8 +31,9 @@
     </head>
     <body>
         <?php
-            $post_data = file_get_contents('php://input');
-            echo "<div> POST BODY <br>".$post_data."</div>"; 
+            echo "<div> POST BODY <br>";
+            var_dump($_POST);
+            echo "</div>";
         ?>        
     </body>
 </html>
