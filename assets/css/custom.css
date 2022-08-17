@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('assets/fonts/Barlow-Medium.ttf');
+  }
+
+body {
+    font-family: 'Barlow', sans-serif !important;
+}
