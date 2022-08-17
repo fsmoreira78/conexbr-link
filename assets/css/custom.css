@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Barlow';
-    src: url('../fonts/Barlow-Medium.ttf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 body {
     font-family: 'Barlow', sans-serif !important;
