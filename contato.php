@@ -6,6 +6,7 @@
     //$to = "estiprojetos@estiprojetos.com.br";
     $to = "fabricio@conexbr.link";
     $phone = $_POST["telefone"];
+    $empresa = $_POST["nomeEmpresa"];
 
     $subject = "Contato pelo site: " . $_POST["nomeContato"];
     $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .
@@ -27,7 +28,13 @@
 <html lang="pt-br">
     <head>
         <title>Enviando...</title>
-        <meta http-equiv="REFRESH" content="1;url=/contato.html">
+        <?php 
+            $destination = "contato.html";
+            if (!$empresa) {
+                $destination = "index.html";
+            }            
+            echo('<meta http-equiv="REFRESH" content="1;url=/' . $destination . '">');
+        ?>
     </head>
     <body>
         <?php
