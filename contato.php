@@ -33,7 +33,7 @@
             if (!$empresa) {
                 $destination = "index.html";
             }            
-            echo('<meta http-equiv="REFRESH" content="1;url=/' . $destination . '">');
+            echo('<meta http-equiv="REFRESH" content="60;url=/' . $destination . '">');
         ?>
     </head>
     <body>
