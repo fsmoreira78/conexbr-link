@@ -18,7 +18,7 @@
     $headers = "De:". $from;
 
     if (is_numeric($phone)) {
-        if ($to != null && $subject != null && $headers != null && $message != null){
+        if ($to != null && $subject != null && $headers != null && $message != null && $empresa != null){
             mail($to, $subject, $message, $headers);
             //mail($to2, $subject, $message, $headers);
         }
