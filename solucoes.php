@@ -400,6 +400,10 @@
                 integrada e eficiente.
             </p>
         </div>
+
+        <div class="row">
+            <a href="contato.php?mensagem=Olá, gostaria de mais informações sobre o Pethros." class="waves-effect waves-light btn-small"><i class="material-icons right">contact_mail</i>Entre em contato</a>
+        </div>
     </div>
     <!-- FIM PETHROS -->
 

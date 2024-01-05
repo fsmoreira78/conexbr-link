@@ -20,15 +20,15 @@
         $honeypot = $_POST['confirmar'];
 
         if ($honeypot == '') {
-            $subject = 'Contato pelo site: ' . $_POST['nomeContato'];
+            $subject = "Contato pelo site da CONEX: " . $_POST["nomeContato"];
             
-            $message = 'Nome.....: ' . $_POST['nomeContato'] . '\r\n' .
-                       'Empresa..: ' . $_POST['nomeEmpresa'] . '\r\n' .
-                       'Email....: ' . $_POST['enderecoEmail'] . '\r\n' .
-                       'Fone.....: ' . $_POST['telefone'] . '\r\n' .
-                       'Mensagem.: ' . $_POST['mensagem'];
+            $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .
+                       "Empresa..: " . $_POST["nomeEmpresa"] . "\r\n" .
+                       "Email....: " . $_POST["enderecoEmail"] . "\r\n" .
+                       "Fone.....: " . $_POST["telefone"] . "\r\n" .
+                       "Mensagem.: " . $_POST["mensagem"];
             
-            $headers = 'De:' . $from;
+            $headers = "De:" . $from;
     
             if (is_numeric($phone)) {
                 if ($from != null && $subject != null && $headers != null && $message != null && $empresa != null){
