@@ -34,9 +34,9 @@
     </ul>
 
     <ul id="DropSuporte" class="dropdown-content">
-        <li><a href="#">Documentação</a></li>
-        <li><a href="#">Garantia</a></li>
-        <li><a href="#">Help-desk</a></li>
+        <!--<li><a href="#">Documentação</a></li>
+        <li><a href="#">Garantia</a></li>-->
+        <li><a href="https://www.pethros.com.br/apex/f?p=100">Help-desk</a></li>
     </ul>
 
     <div class="navbar-fixed">
