@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Formulário de contato | Obrigado! Retornaremos o mais breve possível</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex">
 
     <?php include 'snippets/head.php'; ?>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
