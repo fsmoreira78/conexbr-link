@@ -19,7 +19,7 @@
         $empresa = $_POST['nomeEmpresa'];
         $honeypot = $_POST['confirmar'];
 
-        if ($honeypot == 'desativado') {
+        if ($honeypot == '') {
             $subject = 'Contato pelo site: ' . $_POST['nomeContato'];
             
             $message = 'Nome.....: ' . $_POST['nomeContato'] . '\r\n' .
