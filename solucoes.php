@@ -7,6 +7,15 @@
     <meta name="description" content="Aprimoramos a eficiência operacional por meio da automação de pesagem, integrando sensores avançados, semáforos, cancelas e painéis informativos. Utilizamos a tecnologia RFID para uma identificação precisa de cada recurso. Além disso, nosso sensor de profundidade proporciona monitoramento em tempo real de atividades como subsolagem, garantindo precisão na medição da profundidade de trabalho. Em relação à gestão de combustíveis, asseguramos controle rigoroso do consumo corporativo. A identificação da frota é realizada via leitores RFID, abrangendo tanto abastecimentos em comboio quanto em pontos fixos.">
 
     <?php include 'snippets/head.php'; ?>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11465270257"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11465270257');
+    </script>
 </head>
 <body class="text-default">
     <?php include 'snippets/navbar.php'; ?>

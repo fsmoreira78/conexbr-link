@@ -7,7 +7,16 @@
     <meta name="description" content="Na nossa página de contato, você encontrará os meios ideais para se conectar conosco. Estamos aqui para ajudar e será um prazer atendê-lo. Nossos canais: linkedin -> https://www.linkedin.com/company/conextecnologia, whatsapp -> (18) 98132-2200">
 
     <?php include 'snippets/head.php'; ?>
+
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11465270257"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11465270257');
+    </script>
 </head>
 <body class="text-default">
     <?php include 'snippets/navbar.php'; ?>

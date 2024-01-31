@@ -6,6 +6,15 @@
     <title>CONEX | Conheça um pouco de nossa história e nossos valores</title>
 
     <?php include 'snippets/head.php'; ?>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11465270257"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11465270257');
+    </script>
 </head>
 <body class="text-default">
     <?php include 'snippets/navbar.php'; ?>

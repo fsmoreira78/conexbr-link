@@ -7,6 +7,15 @@
     <meta name="description" content="Na Conex, priorizamos a segurança e privacidade dos dados de nossos clientes, parceiros e colaboradores. Comprometidos com a conformidade da LGPD, implementamos rigorosas medidas de proteção e gestão de dados, garantindo tranquilidade e confiança em todas as interações conosco.">
 
     <?php include 'snippets/head.php'; ?>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11465270257"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11465270257');
+    </script>
 </head>
 <body class="text-default">
     <?php include 'snippets/navbar.php'; ?>

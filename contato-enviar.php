@@ -8,7 +8,16 @@
     <meta name="googlebot" content="noindex">
 
     <?php include 'snippets/head.php'; ?>
+    
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11465270257"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11465270257');
+    </script>
 </head>
 <body class="text-default">
     <?php include 'snippets/navbar.php'; ?>
