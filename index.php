@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Soluções em automação de processos para o agronegócio</title>
     <meta name="description" content="A Conex Tecnologia da Informação é uma empresa especialmente voltada para atender as demandas específicas do agronegócio brasileiro. Oferecemos soluções inovadoras e eficientes buscando a redução de custos através da automação de processos. A automação de pesagem (balança) consiste em gerenciar todo o fluxo de veículos através de sensores, semáforos, cancelas e painéis de mensagens. Para identificação, utilizamos tecnologia RFID a fim de garantir o exato apontamento de cada recurso. O sensor de profundidade permite o acompanhamento em tempo real das operações de subsolagem e quaisquer outras que demandem a medição de profundidade de trabalho do implemento. A gestão de combustíveis visa o controle total de todo combustível consumido pela empresa com identificação de frota através de leitor RFID, tanto em abastecimentos por comboio ou ponto fixo.">
-
+    <meta name="google-site-verification" content="2_KZpCinMC_yRgcjZD2W52xTgTDZLelPqTr76IzUMxk" />
+    
     <?php include 'snippets/head.php'; ?>
 
     <!-- Google: https://developers.google.com/search/docs/fundamentals/get-on-google?hl=en%2F -->
