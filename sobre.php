@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Conheça um pouco de nossa história e nossos valores</title>
+    <link rel="canonical" href="https://www.conexbr.link/sobre.php" />
 
     <?php include 'snippets/head.php'; ?>
 

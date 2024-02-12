@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Soluções em automação de balanças, apontamento de colheita, sensoriamento de operações agrícolas e gestão de combustíveis </title>
     <meta name="description" content="Aprimoramos a eficiência operacional por meio da automação de pesagem, integrando sensores avançados, semáforos, cancelas e painéis informativos. Utilizamos a tecnologia RFID para uma identificação precisa de cada recurso. Além disso, nosso sensor de profundidade proporciona monitoramento em tempo real de atividades como subsolagem, garantindo precisão na medição da profundidade de trabalho. Em relação à gestão de combustíveis, asseguramos controle rigoroso do consumo corporativo. A identificação da frota é realizada via leitores RFID, abrangendo tanto abastecimentos em comboio quanto em pontos fixos.">
+    <link rel="canonical" href="https://www.conexbr.link/solucoes.php" />
 
     <?php include 'snippets/head.php'; ?>
 

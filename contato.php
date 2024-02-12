@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Entre em contato conosco</title>
-    <meta name="description" content="Na nossa página de contato, você encontrará os meios ideais para se conectar conosco. Estamos aqui para ajudar e será um prazer atendê-lo. Nossos canais: linkedin -> https://www.linkedin.com/company/conextecnologia, whatsapp -> (18) 98132-2200">
+    <meta name="description" content="Em nossa página de contato, você encontrará os meios ideais para se conectar conosco. Estamos aqui para ajudar e será um prazer atendê-lo. Nossos canais: linkedin -> https://www.linkedin.com/company/conextecnologia, whatsapp -> (18) 98132-2200">
+    <link rel="canonical" href="https://www.conexbr.link/contato.php" />
 
     <?php include 'snippets/head.php'; ?>
 

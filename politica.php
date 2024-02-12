@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CONEX | Conheça a política de privacidade e termos de utilização de nosso site</title>
     <meta name="description" content="Na Conex, priorizamos a segurança e privacidade dos dados de nossos clientes, parceiros e colaboradores. Comprometidos com a conformidade da LGPD, implementamos rigorosas medidas de proteção e gestão de dados, garantindo tranquilidade e confiança em todas as interações conosco.">
+    <link rel="canonical" href="https://www.conexbr.link/politica.php" />
 
     <?php include 'snippets/head.php'; ?>
 
