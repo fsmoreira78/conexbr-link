@@ -20,7 +20,6 @@
     <a class="anchor" id="Top"></a>
 
     <ul id="DropSolucoes" class="dropdown-content">
-        <li><a href="#Solucoes">Resumo</a></li>
         <li><a href="solucoes.php#ScorpIODust">ScorpIO Dust</a></li>
         <li><a href="solucoes.php#ScorpIOFlow">ScorpIO Flow</a></li>
         <li><a href="solucoes.php#Pethros">Pethros</a></li>
@@ -62,9 +61,19 @@
         <li class="bold ' . $arrayActive["solucoes"] . '">
             <a href="solucoes.php">Soluções</a>
             <ul>
-                <li class="bold" style="padding-left:20px;"><a href="solucoes.php#ScorpIODust" class="waves-effect waves-teal">ScorpIODust</a></li>     
-                <li class="bold" style="padding-left:20px;"><a href="solucoes.php#ScorpIOFlow" class="waves-effect waves-teal">ScorpIOFlow</a></li>     
+                <li class="bold" style="padding-left:20px;"><a href="solucoes.php#ScorpIODust" class="waves-effect waves-teal">ScorpIO Dust</a></li>     
+                <li class="bold" style="padding-left:20px;"><a href="solucoes.php#ScorpIOFlow" class="waves-effect waves-teal">ScorpIO Flow</a></li>     
                 <li class="bold" style="padding-left:20px;"><a href="solucoes.php#Pethros" class="waves-effect waves-teal">Pethros</a></li>     
+            </ul>
+        </li>
+        <li><div class="divider"></div></li>
+        <li class="bold ' . $arrayActive["sistemas"] . '">
+            <a href="#">Sistemas</a>
+            <ul>
+                <li class="bold" style="padding-left:20px;"><a href="https://www.scorpio.app.br" class="waves-effect waves-teal" target="_blank">ScorpIO Dust</a></li>     
+                <li class="bold" style="padding-left:20px;"><a href="https://www.scorpio.app.br/apex/f?p=800" class="waves-effect waves-teal" target="_blank">ScorpIO Flow</a></li>     
+                <li class="bold" style="padding-left:20px;"><a href="https://www.silobag.app.br" class="waves-effect waves-teal" target="_blank">Silo Bag</a></li>        
+                <li class="bold" style="padding-left:20px;"><a href="https://www.pethros.com.br" class="waves-effect waves-teal" target="_blank">Pethros</a></li>     
             </ul>
         </li>
         <li><div class="divider"></div></li>
