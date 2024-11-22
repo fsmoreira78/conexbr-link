@@ -14,7 +14,7 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
 define('VERSION', '2.5.3');
 
 //Application Title
-define('APP_TITLE', 'Tiny File Manager');
+define('APP_TITLE', 'Conex - Custom Files');
 
 // --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
@@ -27,8 +27,8 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    'admin' => '$2y$10$n8IFtnub751qG5i91Q751ezKzxYaShNkljPbDXmhDXK8T2sYCBRC6', 
-    'user' => '$2y$10$tBuCCYNxEJ64HRkixHjKAeV3YKftsWn8IyBIGd3VZCiSe/JND.rnK'
+    'admin' => '$2y$10$8tMBy1j76CzxO2rljOagwuGxz2twEKmJgoSyB/cqBiBGds3hhbFFW', 
+    'user' => '$2y$10$.ZkEIU00kU0QJh3NJqVnf.nID13eY0vbkoDE9PazBdVTa2dhATH0W'
 );
 
 // Readonly users
@@ -61,7 +61,7 @@ $default_timezone = 'Etc/UTC'; // UTC
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
 //$root_path = $_SERVER['DOCUMENT_ROOT'];
-$root_path = $_SERVER['DOCUMENT_ROOT'] . '/assets';
+$root_path = $_SERVER['DOCUMENT_ROOT'] . '/files';
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
