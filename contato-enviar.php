@@ -30,7 +30,7 @@
         $empresa = $_POST['nomeEmpresa'];
         $honeypot = $_POST['name'];
 
-        if (!isEmpty($honeypot)) {
+        if (!empty($honeypot)) {
             $subject = "Contato pelo site da CONEX: " . $_POST["nomeContato"];
             
             $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .
