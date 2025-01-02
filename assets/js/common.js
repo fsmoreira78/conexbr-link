@@ -22,18 +22,18 @@ $(document).ready(function(){
 
 function setActionState() {
     var actionButton = $('#ActionButton');
-    var actionButtonWhats = $('#ActionButtonWhats');
+    //var actionButtonWhats = $('#ActionButtonWhats');
     var scroll = $(document).scrollTop();
 
     if (scroll <  100) {
         // actionButton.css("display", "none");
         actionButton.fadeOut(); 
-        actionButtonWhats.fadeIn();
+        //actionButtonWhats.fadeIn();
     } 
     if (scroll >= 100) { 
         //actionButton.css("display", "block");
         actionButton.fadeIn(); 
-        actionButtonWhats.fadeOut();
+        //actionButtonWhats.fadeOut();
     }
 }
 

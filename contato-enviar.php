@@ -28,9 +28,9 @@
         $to2 = 'fabricio@conexbr.link';
         $phone = $_POST['telefone'];
         $empresa = $_POST['nomeEmpresa'];
-        $honeypot = $_POST['confirmar'];
+        $honeypot = $_POST['name'];
 
-        if ($honeypot == '') {
+        if (!isEmpty($honeypot)) {
             $subject = "Contato pelo site da CONEX: " . $_POST["nomeContato"];
             
             $message = "Nome.....: " . $_POST["nomeContato"] . "\r\n" .

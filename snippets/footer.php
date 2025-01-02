@@ -16,7 +16,6 @@
                     <ul>
                         <li><a class="white-text text-lighten-1" href="contato.php"><i class="fa-solid fa-envelope fa-lg"></i> Fale conosco</a></li>
                         <li><a class="white-text text-lighten-1" href="https://www.linkedin.com/company/conextecnologia" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i> /conextecnologia</a></li>
-                        <li><a class="white-text text-lighten-1" href="https://wa.me/5518981322200?text=Olá%20estou%20entrando%20em%20contato%20através%20do%20site%20da%20Conex."><i class="fa-brands fa-whatsapp fa-lg"></i> (18) 98132-2200</a></li>
                         <li><a class="white-text text-lighten-1" href="#"><i class="fa-solid fa-phone fa-lg"></i> (18) 3217-2999</a></li>
                     </ul>
                 </div>

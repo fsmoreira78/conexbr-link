@@ -32,6 +32,8 @@
                     <i class="material-icons prefix">account_circle</i>
                     <label for="nomeContato" class="form-label">Nome*</label>
                     <input id="nomeContato" type="text" class="validate" name="nomeContato" required>
+                    <label class="contact-form" for="name"></label>
+                    <input class="contact-form" autocomplete="off" type="text" id="name" name="name" placeholder="Informe o nome">
                 </div>
             </div>
             <div class="row">

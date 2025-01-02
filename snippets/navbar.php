@@ -20,9 +20,9 @@
     <a class="anchor" id="Top"></a>
 
     <ul id="DropSolucoes" class="dropdown-content">
-        <li><a href="solucoes.php#ScorpIODust">ScorpIO Dust</a></li>
-        <li><a href="solucoes.php#ScorpIOFlow">ScorpIO Flow</a></li>
-        <li><a href="solucoes.php#Pethros">Pethros</a></li>
+        <li><a href="solucoes.php#ScorpIODust">Medidor de profundidade</a></li>
+        <li><a href="solucoes.php#ScorpIOFlow">Automação de balanças</a></li>
+        <li><a href="solucoes.php#Pethros">Gestão de combustíveis</a></li>
     </ul>
 
     <ul id="DropSistemas" class="dropdown-content">

@@ -1,4 +1,5 @@
 <?php
+   /*
    echo '
     <div id="ActionButton" class="fixed-action-btn" style="display:none;">
         <a class="btn-floating btn-large conex orange">
@@ -16,6 +17,15 @@
     echo '
     <div id="ActionButtonWhats" class="fixed-action-btn">
         <a href="https://wa.me/5518981322200?text=Olá%20estou%20entrando%20em%20contato%20através%20do%20site%20da%20Conex." class="btn-floating btn-large green" aria-label="Converse no Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>';
+    echo "\n\r";
+    */
+
+    echo '
+    <div id="ActionButton" class="fixed-action-btn" style="display:none;">
+        <a href="#Top" class="btn-floating btn-large conex orange">
+            <i class="large material-icons">keyboard_arrow_up</i>
+        </a>
     </div>';
     echo "\n\r";
 ?>

@@ -34,16 +34,16 @@
                     </div>
                     <div class="card-content">
                         <p class="text-body flow-text">A Conex Tecnologia da Informação é uma empresa especialmente voltada para atender as demandas específicas do agronegócio brasileiro. 
-                            Desde a sua fundação em 2008, por dois especialistas com vasta experiência no setor sucroenergético, a empresa tem se dedicado 
+                            Fundação em 2008 por dois especialistas com vasta experiência no setor sucroenergético, a empresa tem se dedicado 
                             incessantemente a oferecer soluções inovadoras e eficientes.</p>
-                        <p class="text-body flow-text">O diferencial da Conex reside no seu compromisso com a otimização de recursos e na busca constante pela redução de custos para 
-                            seus clientes. Através da automatização de processos, a empresa não apenas simplifica operações complexas, mas também proporciona 
-                            uma gestão mais eficaz e econômica para as empresas do agronegócio.</p>
-                        <p class="text-body flow-text">Ao longo dos anos, consolidou sua reputação como parceira estratégica das organizações agrícolas, fornecendo ferramentas 
+                        <p class="text-body flow-text">Nosso diferencial reside em nosso compromisso com a otimização de recursos e na busca constante pela redução de custos para 
+                            nossos clientes. Através da automatização de processos, simplificamos não apenas operações complexas, mas também proporcionamos uma gestão mais eficaz 
+                            e econômica para as empresas do agronegócio.</p>
+                        <p class="text-body flow-text">Ao longo dos anos, consolidamos nossa reputação como parceira estratégica das organizações agrícolas, fornecendo ferramentas 
                             tecnológicas robustas, suporte especializado e soluções personalizadas que impulsionam a produtividade, a rentabilidade 
                             e a sustentabilidade no campo.</p>
                         <p class="text-body flow-text">Com uma visão voltada para o futuro e um profundo conhecimento das nuances do agronegócio brasileiro, a Conex continua a inovar, 
-                            adaptar-se às mudanças do mercado e superar as expectativas de seus clientes, reafirmando seu compromisso de contribuir 
+                            adaptar-se às mudanças do mercado e superar as expectativas de seus clientes. Reafirmando, assim, nosso compromisso de contribuir 
                             significativamente para o crescimento e desenvolvimento sustentável do setor.</p>
 
                     </div>
